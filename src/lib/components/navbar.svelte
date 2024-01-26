@@ -80,14 +80,14 @@
 
     <!-- link to github -->
     <a
-      target="blank"
+      target="_blank"
       href="https://github.com/a-paudel"
       aria-label="Github"
       class="link"><div class="i-carbon-logo-github text-3xl"></div></a
     >
     <!-- link to linkedin -->
     <a
-      target="blank"
+      target="_blank"
       href="https://www.linkedin.com/in/ankurpaudel/"
       aria-label="LinkedIn"
       class="link"><div class="i-carbon-logo-linkedin text-3xl"></div></a
