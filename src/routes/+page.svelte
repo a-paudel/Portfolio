@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Ankur Paudel</title>
+</svelte:head>
+
 <div class="flex-1 flex flex-col gap10 items-center justify-center text-center">
   <h1 class="text-center font-normal text-6xl m0">
     Hi! I'm

@@ -1,3 +1,6 @@
+<svelte:head>
+  <title>Projects | Ankur Paudel</title>
+</svelte:head>
 <div class="flex gap4 p4 flex-1">
   <a
     href="/projects/data"
