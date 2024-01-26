@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
 
   // get darkMode from localStorage
-  let darkMode = JSON.parse(localStorage.getItem("darkMode") || "true");
+  let darkMode = true;
 
   function toggleDarkMode() {
     darkMode = !darkMode;
@@ -12,6 +12,7 @@
 
   // on start set darkMode
   onMount(() => {
+    darkMode = JSON.parse(localStorage.getItem("darkMode") || "true");
     if (darkMode) {
       document.body.classList.add("dark");
     }

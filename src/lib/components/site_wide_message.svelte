@@ -1,9 +1,10 @@
 <script lang="ts">
-  import { env } from "$env/dynamic/public";
-  let text = env.PUBLIC_BANNER_TEXT ?? null;
+  import { PUBLIC_SITE_WIDE_MESSAGE } from "$env/static/public";
+
+  let text = PUBLIC_SITE_WIDE_MESSAGE;
 </script>
 
-{#if text}
+{#if text.trim() !== ""}
   <!-- content here -->
   <div class="bg-danger text-danger-foreground p2">
     <h4 class="m0 text-center">{text}</h4>
