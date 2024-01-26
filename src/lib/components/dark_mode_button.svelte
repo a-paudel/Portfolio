@@ -13,8 +13,12 @@
   // on start set darkMode
   onMount(() => {
     darkMode = JSON.parse(localStorage.getItem("darkMode") || "true");
+    console.log(darkMode);
+
     if (darkMode) {
       document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
     }
   });
 </script>
